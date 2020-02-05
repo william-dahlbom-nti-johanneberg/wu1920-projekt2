@@ -1,0 +1,20 @@
+body{
+    background-color:orange;
+}
+
+.menylankar{
+    color: white;
+    font-size: 2em;
+    text-align: right; 
+    margin-left: 20px;
+}
+
+.hemheader{
+    background-color: black;
+    padding: 30px;
+}
+
+article{
+    padding: 10px;
+    
+}
