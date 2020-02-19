@@ -2,19 +2,47 @@ body{
     background-color:orange;
 }
 
+#Rubrik{
+   color: white;
+    font-size: 3em;
+    font-family: 'Righteous', cursive;;
+
+}
+
 .menylankar{
     color: white;
     font-size: 2em;
-    text-align: right; 
-    margin-left: 20px;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
 }
 
 .hemheader{
     background-color: black;
-    padding: 30px;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+    text-align: center;
 }
 
-article{
-    padding: 10px;
-    
+
+#Mixtape{
+    max-width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#welcome{
+    grid-column: 4/ span 4;
+}
+
+div{
+    background-color: lavender;
 }
