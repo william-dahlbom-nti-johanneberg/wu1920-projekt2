@@ -24,25 +24,121 @@ a{
     background-color: black;
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr;
     align-items: center;
     text-align: center;
 }
 
-
-#Mixtape{
-    max-width: 30%;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+main{
+ background-color: lavender;
+ display: grid;
+ grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+ align-items: center;
+ text-align: center;
 }
 
-#welcome{
-    grid-column: 4/ span 4;
+
+#Mixtape{
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.shimmer{
+    grid-column: 2/ span 4;
+    background-color: lavender;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 4em;
+}
+
+
+
+.shimmer {
+		text-align: center;
+		color: rgba(255, 255, 255, 0.1);
+		background: -webkit-gradient(linear, left top, right top, from(black), to(black), color-stop(0.5, lavender));
+		background: -moz-gradient(linear, left top, right top, from(black), to(black), color-stop(0.5, lavender));
+		background: gradient(linear, left top, right top, from(black), to(black), color-stop(0.5, lavender));
+		-webkit-background-size: 125px 100%;
+		-moz-background-size: 125px 100%;
+		background-size: 125px 100%;
+		-webkit-background-clip: text;
+		-moz-background-clip: text;
+		background-clip: text;
+		-webkit-animation-name: shimmer;
+		-moz-animation-name: shimmer;
+		animation-name: shimmer;
+		-webkit-animation-duration: 2s;
+		-moz-animation-duration: 2s;
+		animation-duration: 7s;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		background-color:black;
+}
+
+
+
+@-moz-keyframes shimmer {
+		0% {
+				background-position: top left;
+		}
+		100% {
+				background-position: top right;
+		}
+}
+
+@-webkit-keyframes shimmer {
+		0% {
+				background-position: top left;
+		}
+		100% {
+				background-position: top right;
+		}
+}
+
+@-o-keyframes shimmer {
+		0% {
+				background-position: top left;
+		}
+		100% {
+				background-position: top right;
+		}
+}
+
+@keyframes shimmer {
+		0% {
+				background-position: top left;
+		}
+		100% {
+				background-position: top right;
+		}
+}
+
+.hemfot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    background-color: rgb(255, 250, 251);
+}
+
+.kategorier{
+    padding: 40px;
+    max-width: 50%;
+    text-align: center;
+    align-items: center;
 }
 
 div{
-    background-color: lavender;
+    text-align: center;
+}
+
+.kategoritext{
+ text-align: center;
+ font-size: 3em;
+ font-family:'PT Sans', sans-serif;
+ margin: 10px;
 }
