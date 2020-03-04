@@ -119,10 +119,12 @@ main{
 		}
 }
 
+
 .hemfot{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
-    background-color: rgb(255, 250, 251);
+	background-color: rgb(255, 255, 255);
+	padding-bottom: 40px;
 }
 
 .kategorier{
@@ -137,8 +139,84 @@ div{
 }
 
 .kategoritext{
- text-align: center;
  font-size: 3em;
  font-family:'PT Sans', sans-serif;
  margin: 10px;
+ color: black;
+ font-weight: bolder;
+ 
 }
+
+
+
+.actiontitel{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	background-color:white;
+	max-width: 70%;
+	font-size: 5em;
+	 font-family:'PT Sans', sans-serif;
+	 margin: auto;
+	 color: white;
+}
+
+#door{
+	max-width: 100%;
+	background-image: url("../img/hobbit.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+#bobba{
+	max-width: 100%;
+	background-image: url("../img/Bobba-Fett.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+#thor{
+	max-width: 100%;
+	background-image: url("../img/Thor.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+#spiderman{
+	max-width: 100%;
+	background-image: url("../img/Spiderman.jpg");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+#jurassic{
+	max-width: 100%;
+	background-image: url("../img/Jurassicworld.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+#primus{
+	max-width: auto;
+	background-image: url("../img/Transformers.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
