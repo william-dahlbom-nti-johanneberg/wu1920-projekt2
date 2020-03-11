@@ -220,3 +220,165 @@ div{
 	object-fit: cover;
 }
 
+
+.dramatitel{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	background-color:white;
+	max-width: 70%;
+	font-size: 5em;
+	 font-family:'PT Sans', sans-serif;
+	 margin: auto;
+	 color: white;
+}
+
+#titanic{
+	max-width: 100%;
+	background-image: url("../img/Titanic.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+#queen{
+	max-width: 100%;
+	background-image: url("../img/Queen.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+#eminem{
+	max-width: 100%;
+	background-image: url("../img/Eminem.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+#gaga{
+	max-width: 100%;
+	background-image: url("../img/GAGA.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+#joker{
+	max-width: auto;
+	background-image: url("../img/Joker.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+.disneytitel{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	background-color:white;
+	max-width: 70%;
+	font-size: 5em;
+	 font-family:'PT Sans', sans-serif;
+	 margin: auto;
+	 color: white;
+}
+
+#simba{
+	max-width: 100%;
+	background-image: url("../img/Lejonkungen.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+#olof{
+	max-width: 100%;
+	background-image: url("../img/Frost.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+#belle{
+	max-width: 100%;
+	background-image: url("../img/Belle.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+#viana{
+	max-width: 100%;
+	background-image: url("../img/VIANA.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+#woodie{
+	max-width: auto;
+	background-image: url("../img/Toy-story.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+	
+}
+
+#ariel{
+	max-width: auto;
+	background-image: url("../img/Ariel.png");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+	
+}
+
+
+.top{
+	display: grid;
+	grid-template-columns: 1fr;
+	background-color:white;
+	max-width: 70%;
+	font-size: 5em;
+	font-family:'PT Sans', sans-serif;
+	margin: auto;
+	color: white;
+}
+
+#toppentext{
+	max-width: auto;
+	background-image: url("../img/TOP.jpg");
+	background-color: white;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+
+.Töp{
+	max-width: auto;
+	margin: 40px;
+}
