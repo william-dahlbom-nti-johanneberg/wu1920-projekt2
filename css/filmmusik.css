@@ -153,7 +153,7 @@ div{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	background-color:white;
-	max-width: 70%;
+	max-width: 80%;
 	font-size: 5em;
 	 font-family:'PT Sans', sans-serif;
 	 margin: auto;
@@ -220,12 +220,25 @@ div{
 	object-fit: cover;
 }
 
+.actionmusik{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 40px;
+	max-width: 75%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+
+
+
 
 .dramatitel{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	background-color:white;
-	max-width: 70%;
+	max-width: 80%;
 	font-size: 5em;
 	 font-family:'PT Sans', sans-serif;
 	 margin: auto;
@@ -282,15 +295,25 @@ div{
 	object-fit: cover;
 }
 
+.dramamusik{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 40px;
+	max-width: 75%;
+	margin: auto;
+	margin-top: 50px;
+}
+
 .disneytitel{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	background-color:white;
-	max-width: 70%;
+	max-width: 80%;
 	font-size: 5em;
-	 font-family:'PT Sans', sans-serif;
-	 margin: auto;
-	 color: white;
+	font-family:'PT Sans', sans-serif;
+	margin: auto;
+	color: white;
 }
 
 #simba{
@@ -355,12 +378,46 @@ div{
 	
 }
 
+.disneymusik{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 40px;
+	max-width: 75%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+
+.musiken{
+	display: block;
+	align-items: center;
+	background-color: black;
+	color: white;
+	font-family:'PT Sans', sans-serif;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.musiken p{
+	margin: 10px;
+}
+
+.spotify{
+	display: block;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+}
+
 
 .top{
 	display: grid;
 	grid-template-columns: 1fr;
 	background-color:white;
-	max-width: 70%;
+	max-width: 80%;
 	font-size: 5em;
 	font-family:'PT Sans', sans-serif;
 	margin: auto;
@@ -379,6 +436,689 @@ div{
 
 
 .Töp{
-	max-width: auto;
-	margin: 40px;
+	display: grid;
+	grid-template-columns: 1fr;
+	max-width: 100%;
+	margin: auto;
+	margin-top: 50px;
 }
+
+#Tup{
+	display: block;
+	align-items: center;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: auto;
+}
+
+
+
+#Täp{
+	display: none;
+	align-items: center;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: auto;
+}
+
+
+
+#Typ{
+	display: none;
+	align-items: center;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: auto;
+}
+
+
+@media screen and (max-width: 1500px) and (min-width: 1200px){
+
+.actionmusik{
+grid-template-columns: 1fr 1fr;
+grid-template-rows: repeat(5) 1fr;
+}
+
+.dramamusik{
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(5) 1fr;
+}
+
+.disneymusik{
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(5) 1fr;
+}
+
+}
+
+
+@media screen and (max-width: 1350px) and (min-width: 1200px) {
+
+
+.actiontitel{
+font-size: 4.5em;
+}
+
+.dramatitel{
+font-size: 4.5em;
+}
+
+.disneytitel{
+font-size: 4.5em;
+}
+.top{
+	font-size: 4.5em;
+}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1100px) {
+
+	.actionmusik{
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: repeat(5) 1fr;
+		}
+		
+		.dramamusik{
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: repeat(5) 1fr;
+		}
+		
+		.disneymusik{
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: repeat(5) 1fr;
+		}
+
+.actiontitel{
+font-size: 4em;
+}
+		
+.dramatitel{
+font-size: 4em;
+}
+		
+.disneytitel{
+font-size: 4em;
+}
+
+.top{
+	font-size: 4em;
+}
+
+} 
+
+@media screen and (max-width: 1100px) and (min-width: 950px) {
+
+.actionmusik{
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+}
+
+.dramamusik{
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+
+}
+
+.disneymusik{
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+
+}
+
+.Töp{
+	margin-top: 45px;
+}
+
+.actiontitel{
+font-size: 3.5em;
+}
+			
+.dramatitel{
+font-size: 3.5em;
+}
+			
+.disneytitel{
+font-size: 3.5em;
+}
+
+.top{
+	font-size: 3.5em;
+}
+	
+	} 
+
+
+
+@media screen and (max-width: 950px) and (min-width: 820px) {
+
+#Rubrik{
+	font-size: 2.5em;
+}
+
+.menylankar{
+	font-size: 1.6em;
+}
+
+.shimmer{
+	font-size: 3.5em;
+}
+
+.kategoritext{
+	font-size: 2.5em;
+}
+
+.kategorier{
+	max-width: 45%;
+	padding: 35px;
+}
+
+.Töp{
+	margin-top: 40px;
+}
+
+.actionmusik{
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 40px;
+	}
+	
+.dramamusik{
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 40px;
+	
+	}
+	
+.disneymusik{
+		grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 40px;
+	
+	}
+
+.actiontitel{
+font-size: 3em;
+}
+					
+.dramatitel{
+font-size:3em;
+}
+					
+.disneytitel{
+font-size: 3em;
+}
+
+.top{
+	font-size: 3em;
+}
+} 
+
+
+
+@media screen and (max-width: 820px) and (min-width: 690px) {
+
+#Rubrik{
+	font-size: 2em;
+}
+
+.menylankar{
+	font-size: 1.3em;
+}
+
+.shimmer{
+	font-size: 3em;
+}
+
+.kategoritext{
+	font-size: 2em;
+}
+
+.kategorier{
+	max-width: 40%;
+	padding: 30px;
+}
+
+.Töp{
+	margin-top: 35px;
+}
+
+.hemfot{
+	padding-bottom: 35px;
+}
+
+.actionmusik{
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 35px;
+	}
+	
+.dramamusik{
+		grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 35px;
+	
+	}
+	
+.disneymusik{
+		grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 35px;
+	
+	}
+
+.actiontitel{
+font-size: 2.5em;
+}
+						
+.dramatitel{
+font-size:2.5em;
+}
+						
+.disneytitel{
+font-size: 2.5em;
+}
+
+.top{
+	font-size: 2.5em;
+}
+} 
+
+
+
+@media screen and (max-width: 690px) and (min-width: 570px) {
+
+#Rubrik{
+	font-size: 1.7em;
+}
+
+.menylankar{
+	font-size: 1em;
+}
+
+.shimmer{
+	font-size: 2.5em;
+}
+
+.kategoritext{
+	font-size: 1.5em;
+}
+
+.kategorier{
+	max-width: 40%;
+	padding: 25px;
+}
+
+.Töp{
+	margin-top: 30px;
+}
+
+.hemfot{
+	padding-bottom: 30px;
+}
+
+#Tup{
+	display: none;
+}
+
+#Täp{
+	display: block;
+}
+
+.actionmusik{
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 30px;
+	}
+	
+	.dramamusik{
+		grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 30px;
+	
+	}
+	
+	.disneymusik{
+		grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 30px;
+	
+	}
+
+.actiontitel{
+font-size: 2em;
+}
+							
+.dramatitel{
+font-size:2em;
+}
+							
+.disneytitel{
+font-size: 2em;
+}
+
+.top{
+	font-size: 2em;
+}
+} 
+
+
+
+@media screen and (max-width: 570px) and (min-width: 470px) {
+
+#Rubrik{
+	font-size: 1.3em;
+}
+
+.menylankar{
+	font-size: 0.8em;
+}
+
+.shimmer{
+	font-size: 2em;
+}
+
+.kategoritext{
+	font-size: 1em;
+}
+
+.kategorier{
+	max-width: 35%;
+	padding: 20px;
+}
+
+.Töp{
+	margin-top: 25px;
+}
+
+.hemfot{
+	padding-bottom: 25px;
+}
+
+#Tup{
+	display: none;
+}
+
+#Typ{
+	display: block;
+}
+
+.actionmusik{
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 25px;
+	max-width: 90%;
+	}
+	
+	.dramamusik{
+		grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 25px;
+	max-width: 90%;
+	
+	}
+	
+	.disneymusik{
+		grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 25px;
+	max-width: 90%;
+	
+	}
+
+.actiontitel{
+font-size: 1.7em;	
+}	
+.dramatitel{
+font-size:1.7em;
+}
+								
+.disneytitel{
+font-size: 1.7em;
+}
+
+.top{
+	font-size: 1.7em;
+}
+} 
+
+
+
+@media screen and (max-width: 470px) and (min-width: 400px) {
+
+#Rubrik{
+	font-size: 1.1em;
+}
+	
+.menylankar{
+	font-size: 0.7em;
+}
+
+.shimmer{
+	font-size: 1.5em;
+}
+.kategoritext{
+	font-size: 0.7em;
+}
+
+.kategorier{
+	max-width: 30%;
+	padding: 15px;
+
+}
+
+.Töp{
+	margin-top: 20px;
+}
+.hemfot{
+	padding-bottom: 20px;
+}
+
+#Tup{
+	display: none;
+}
+
+#Typ{
+	display: block;}
+
+
+
+.actionmusik{
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 20px;
+	max-width: 90%;
+	}
+	
+	.dramamusik{
+		grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 20px;
+	max-width: 90%;
+	
+	}
+	
+	.disneymusik{
+		grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 20px;
+	max-width: 90%;
+	
+	}
+	
+.actiontitel{
+font-size: 1.4em;	
+}	
+.dramatitel{
+font-size:1.4em;
+}
+									
+.disneytitel{
+font-size: 1.4em;
+}
+
+.top{
+	font-size: 1.4em;
+}
+	} 
+
+
+@media screen and (max-width: 400px) and (min-width:340px) {
+
+#Rubrik{
+	font-size: 1em;
+}
+			
+.menylankar{
+	font-size: 0.7em;
+}
+
+.shimmer{
+	font-size: 1em;
+}
+
+.kategoritext{
+	font-size: 0.5em;
+}
+
+.kategorier{
+	max-width: 25%;
+	padding: 13px;
+}
+
+.Töp{
+	margin-top: 15px;
+}
+
+.hemfot{
+	padding-bottom: 15px;
+}
+
+
+#Tup{
+	display: none;
+}
+
+#Typ{
+	display: block;}
+
+.actionmusik{
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 15px;
+	max-width: 95%;
+	}
+	
+	.dramamusik{
+		grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 15px;
+	max-width: 95%;
+	
+	}
+	
+	.disneymusik{
+		grid-template-columns: 1fr;
+	grid-template-rows: repeat(9) 1fr;
+	margin-top: 15px;
+	max-width: 95%;
+	
+	}
+			
+.actiontitel{
+font-size: 1.2em;	
+}	
+
+.dramatitel{
+font-size:1.2em;
+}
+											
+.disneytitel{
+font-size: 1.2em;
+}
+
+.top{
+	font-size: 1.2em;
+}
+} 
+
+@media screen and (max-width: 340px) and (min-width:1px) {
+
+	#Rubrik{
+		font-size: 1em;
+	}
+				
+	.menylankar{
+		font-size: 0.7em;
+	}
+
+	.shimmer{
+		font-size: 1em;
+	}
+
+	.kategoritext{
+		font-size: 0.5em;
+	}
+
+	.kategorier{
+		max-width: 25%;
+		padding: 10px;
+	}
+
+	.Töp{
+		margin-top: 10px;
+	}
+
+	.hemfot{
+		padding-bottom: 10px;
+	}
+
+	
+#Tup{
+	display: none;
+}
+
+#Typ{
+	display: block;}
+
+	.actionmusik{
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(9) 1fr;
+		margin-top: 10px;
+		max-width: 95%;
+		}
+		
+		.dramamusik{
+			grid-template-columns: 1fr;
+		grid-template-rows: repeat(9) 1fr;
+		margin-top: 10px;
+		max-width: 95%;
+		
+		}
+		
+		.disneymusik{
+			grid-template-columns: 1fr;
+		grid-template-rows: repeat(9) 1fr;
+		margin-top: 10px;
+		max-width: 95%;
+		
+		}
+				
+	.actiontitel{
+	font-size: 1.2em;	
+	}	
+	
+	.dramatitel{
+	font-size:1.2em;
+	}
+												
+	.disneytitel{
+	font-size: 1.2em;
+	}
+
+	.top{
+		font-size: 1.2em;
+	}
+	} 
