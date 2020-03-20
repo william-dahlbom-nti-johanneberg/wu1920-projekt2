@@ -20,6 +20,11 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+	color: lightgray;
+}
+
+
 .hemheader{
     background-color: black;
     display: grid;
@@ -145,6 +150,18 @@ div{
  color: black;
  font-weight: bolder;
  
+}
+
+
+.java{
+	background-color: black;
+	color: white;
+	font-family:'PT Sans', sans-serif;
+	padding: 20px;
+}
+
+.Info:hover{
+	color:lightgray;
 }
 
 
@@ -479,7 +496,7 @@ div{
 
 .actionmusik{
 grid-template-columns: 1fr 1fr;
-grid-template-rows: repeat(5) 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .dramamusik{
@@ -615,6 +632,14 @@ font-size: 3.5em;
 	padding: 35px;
 }
 
+.java{
+	padding: 15px;
+}
+
+.Info{
+	font-size: 1.3em;
+}
+
 .Töp{
 	margin-top: 40px;
 }
@@ -685,6 +710,23 @@ font-size: 3em;
 	margin-top: 35px;
 }
 
+.java{
+	padding: 13px;
+}
+
+.Info{
+	font-size: 1.1em;
+}
+
+.alert{
+padding: 17px;
+margin-top: 17px;
+margin-bottom: 15px;
+font-size:1em;
+}
+
+
+
 .hemfot{
 	padding-bottom: 35px;
 }
@@ -754,6 +796,23 @@ font-size: 2.5em;
 .Töp{
 	margin-top: 30px;
 }
+
+.java{
+	padding: 11px;
+}
+
+.Info{
+	font-size: 1em;
+}
+
+.alert{
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 13px;
+	font-size:0.93em;
+	}
+	
+
 
 .hemfot{
 	padding-bottom: 30px;
@@ -832,6 +891,23 @@ font-size: 2em;
 .Töp{
 	margin-top: 25px;
 }
+
+.java{
+	padding: 9px;
+}
+
+.Info{
+	font-size: 0.85em;
+}
+
+.alert{
+	padding: 13px;
+	margin-top: 13px;
+	margin-bottom: 11px;
+	font-size:0.85em;
+	}
+	
+	
 
 .hemfot{
 	padding-bottom: 25px;
@@ -912,6 +988,24 @@ font-size: 1.7em;
 .Töp{
 	margin-top: 20px;
 }
+
+.java{
+	padding: 7px;
+}
+
+.Info{
+	font-size: 0.7em;
+}
+
+.alert{
+	padding: 11px;
+	margin-top: 11px;
+	margin-bottom: 9px;
+	font-size:0.75m;
+	}
+	
+
+
 .hemfot{
 	padding-bottom: 20px;
 }
@@ -992,6 +1086,22 @@ font-size: 1.4em;
 	margin-top: 15px;
 }
 
+.java{
+	padding: 5px;
+}
+
+.Info{
+	font-size: 0.55em;
+}
+
+.alert{
+	padding: 13px;
+	margin-top: 13px;
+	margin-bottom: 11px;
+	font-size:0.7em;
+	}
+	
+
 .hemfot{
 	padding-bottom: 15px;
 }
@@ -1070,6 +1180,22 @@ font-size: 1.2em;
 	.Töp{
 		margin-top: 10px;
 	}
+
+	.java{
+		padding: 4px;
+	}
+	
+	.Info{
+		font-size: 0.5em;
+	}
+
+	.alert{
+		padding: 13px;
+		margin-top: 13px;
+		margin-bottom: 11px;
+		font-size:0.7em;
+		}
+		
 
 	.hemfot{
 		padding-bottom: 10px;
