@@ -158,6 +158,38 @@
 
     </footer>
 
+    <style>
+        .alert {
+            padding: 20px;
+            background-color: #2196F3;
+            color: white;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            max-width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .closebtn {
+            margin: auto;
+            color: white;
+            font-weight: bold;
+            float: right;
+            font-size: 22px;
+            line-height: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .closebtn:hover {
+            color: black;
+        }
+    </style>
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <strong>Varning!</strong> Hemsidan är inte helt klar men det kommer mer inom obestämd tid!
+    </div>
+
 </body>
 
 </html>
