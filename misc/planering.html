@@ -36,11 +36,55 @@
     att man ska ha bilder där man kan "hovra" över och då spelas en del av den filmmusiken upp.
     <h2>2. Planering</h2>
 
-    Här finns en länk för hur man fixar audiofiler i JS och HTML: https://css-tricks.com/play-sound-on-hover/
+    <p> Här finns en länk för hur man fixar audiofiler i JS och HTML: https://css-tricks.com/play-sound-on-hover/ </p>
+    <p> Ändrade och fick istället använda mig utav spotify:s egna inbäddningskoder för att få tillgång till musiken.
+    </p>
 
     <h3>2.1 Handskiss</h3>
     <!-- Här lägger du en bild på din handskiss av layouten. Viktigt att du beskriver vilka boxelement som ska användas. Visa även hur du tänker med ditt grid (Hur många kolumner?) -->
+    <h3> Index sidan skiss: </h3> <img src="skissindex.jpeg" alt="i">
+    <p> En huvudment som jag tänker ska vara svart med de olika kategorierna som ska vara klickbara. En titel i lite
+        större
+        fontstorlek än kategorierna och därmed också "spänna" sig över flera rutor. Ska använda mig utav gridspan. Så då
+        får
+        jag ha ett grid med 7 kolumner och sen att titlen har ett span över tre. Sen ska jag ha en rätt öppen sektion
+        som
+        ska vara lite stilrent och välkommnande med en bild och en text med en stor font. Och då får jag ha ett grid med
+        två
+        kolumner varav jag vill ha bilden direkt under titeln och då använder jag mig utav samma grid som på headern och
+        då
+        får bilden spänna över de tre första kolumnerna och texten över de fyra sista. Den sista sektionen ska vara ännu
+        en
+        väg till de andra sidorna som ser lite roligare ut och det ska vara tre runda bollar med bilder och varsin
+        kategoritext. Detta ska gå att klicka på och jag får göra bilderna i photoshop för att få de helt runda. Sedan
+        anpassa ett grid på 4 kolumner. Tog inspiration från Spotify! </p>
 
+    <h3> Action/Drama/Disney sidorna skiss: </h3> <img src="skissadd.jpeg" alt="add">
+    <p> Här använder jag samma header på alla tre hemsidor så man därifrån kan hoppa mellan alla sidorpå ett smidigt
+        sätt.
+        Strax under där vill jag ha någon typ av rubrik som berättar i stor font storlek vilken sida man är på. Antingen
+        om
+        man har en bokstav i varsin div i ett grid eller hela ordet centrerat med en schyst färg som bakgrund. Detta får
+        vara rätt så kompakt så det inte sträcker sig över hela skärmen och därmed inte blir lika läsbart. Sedan vill
+        jag ha
+        själva innehållet som har med filmmusik att göra och då vill jag att det ska finnas möjlighet att spela en del
+        av
+        musiken via någon play-knapp eller liknande. Detta lägger jag in med lite text som berättar om låtens film,
+        skapare
+        mm. Detta placeras i svarta grid som ska ha en viss borderradius så de inte blir så hårda kanter. Kanske att man
+        har
+        6 eller 9 st med ett grid på: grid-template-columns repeat 3 1fr och grid-template-rows repeat 3 1fr.</p>
+
+    <h3> Top 10 sidan skiss: </h3> <img src="skisstop10.jpeg" alt="t1">
+    <p> En enskild sida som ska ha annorlunda innehåll än de andra tre. Förstoch främst är headern den samma för att man
+        enkelt ska kunna byta mellan alla sidor. Sedan en Rubrik precis som på ADD sidorna under headern, antingen
+        bokstav
+        för bokstav eller hela ordet centrerat och med en kortare width än hela sidan. Sedan tänkte jag ett stort
+        block/grid
+        som är indelat i flera små grid men kanske en liten border emellan så man kan se skillnaden, samt nummer rankade
+        från 1-10. Sedan började jag spåna på en idé med o ha ett litet quiz längst ner men vi får se hur det blir med
+        det.
+        Det skulle iaf göras med javascript så man kan integrera med hemsidan genom att svara på en fråga. </p>
     <h3>2.2 Schema</h3>
     <!-- Vad ska du göra när? Inte för detaljerat. -->
 
@@ -169,64 +213,193 @@
     <h3>Lektion vecka 4</h3>
     <!-- Fyll på med dokumentation här. -->
 
+    <p> Jag kollade igenom förra projektet och började skumma över denna uppgiften men längre än så kom jag inte
+        riktigt. </p>
+
     <h3>Lektion vecka 5</h3>
     <!-- Fyll på med dokumentation här. -->
-    Hade lite svårt att komma igång idag, men jag har letat lite och jämfört med andra hemsidor för att
-    försöka hitta någon typ av inspiration. Har tänkt att jag vill ha lite större grid med stora bilder som
-    poppar ut när man hovrar över och spelar upp musik (om det går). Fick inte riktigt till någon skiss idag
-    utan jag skissade och slängde för jag blev inte nöjd. Tills nästa vecka ska jag ha en färdig skiss och bestämt mig
-    hur hemsidan ska se ut och vad den ska ha för funktioner.
+    <p> Hade lite svårt att komma igång idag, men jag har letat lite och jämfört med andra hemsidor för att
+        försöka hitta någon typ av inspiration. Har tänkt att jag vill ha lite större grid med stora bilder som
+        poppar ut när man hovrar över och spelar upp musik (om det går). Fick inte riktigt till någon skiss idag
+        utan jag skissade och slängde för jag blev inte nöjd. Tills nästa vecka ska jag ha en färdig skiss och bestämt
+        mig
+        hur hemsidan ska se ut och vad den ska ha för funktioner. </p>
 
     <h3>Lektion vecka 6</h3>
     <!-- Fyll på med dokumentation här. -->
-    Idag har jag skissat min indexsida och fått ett litet "hum" om hur den ska se ut. Vill ha en svart header med fyra
-    olika kategorier, logo och namn på hemsidan som jag inte har bestämt än. Sen ska jag ha en "main" sektion med en
-    bild och lite text som berättar vad det är för typ av hemsida. Och sedan ska jag ha 4 cirkulära former med bilder i
-    för varje kategori. Action, Drama, Disney och Top 10. Har idag letat bilder och börjat lite i html.
+    <p> Idag har jag skissat min indexsida och fått ett litet "hum" om hur den ska se ut. Vill ha en svart header med
+        fyra
+        olika kategorier, logo och namn på hemsidan som jag inte har bestämt än. Sen ska jag ha en "main" sektion med en
+        bild och lite text som berättar vad det är för typ av hemsida. Och sedan ska jag ha 4 cirkulära former med
+        bilder i
+        för varje kategori. Action, Drama, Disney och Top 10. Har idag letat bilder och börjat lite i html. </p>
 
     <h3>Lektion vecka 8</h3>
     <!-- Fyll på med dokumentation här. -->
-    Gjorde klart min header på indexsidan och fixade rubrik och länkar. Hade problem med gridspan och gridcolumns så
-    körde fast en del. Men är på god väg så ska bara fixa gridet och sen kan jag börja på bilderna till varje kategori.
+    <p> Gjorde klart min header på indexsidan och fixade rubrik och länkar. Hade problem med gridspan och gridcolumns så
+        körde fast en del. Men är på god väg så ska bara fixa gridet och sen kan jag börja på bilderna till varje
+        kategori. </p>
 
     <h3>Lektion vecka 9</h3>
     <!-- Fyll på med dokumentation här. -->
-    Nästan färdig med indexsidan och jag är jättenöjd. Är på god väg nu och har en ide på hur de andra sidorna ska se
-    ut.
+    <p> Nästan färdig med indexsidan och jag är jättenöjd. Är på god väg nu och har en ide på hur de andra sidorna ska
+        se
+        ut. </p>
 
     <h3>Lektion vecka 10</h3>
     <!-- Fyll på med dokumentation här. -->
-    Idag har jag gjort klart min indexsida och den blev väldigt bra. Sedan kom jag på en smart idé till de andra sidorna
-    där jag skriver kategorien bokstav för bokstav i ett grid och har olika bakgrundsbilder som hänger ihop med just den
-    kategorien. Så har gjort ett exempel på min Action-sida och ska använda samma princip på de tre andra sidorna. Det
-    blev väldigt snyggt och jag tyckte att det var nytänkande.
+    <p> Idag har jag gjort klart min indexsida och den blev väldigt bra. Sedan kom jag på en smart idé till de andra
+        sidorna
+        där jag skriver kategorien bokstav för bokstav i ett grid och har olika bakgrundsbilder som hänger ihop med just
+        den
+        kategorien. Så har gjort ett exempel på min Action-sida och ska använda samma princip på de tre andra sidorna.
+        Det
+        blev väldigt snyggt och jag tyckte att det var nytänkande. </p>
 
     <h3>Lektion vecka 11</h3>
     <!-- Fyll på med dokumentation här. -->
-    Tanken var att jag skulle ha gjort klart alla sidor tills idag så jag kunde börja mobilanpassa och addera javascript
-    nästa lektion men jag körde fast ordentligt idag. Jag försökte lösa problemet med att få hemsidan att spela upp en
-    bit av den låten som jag ville ha och det enda sättet att lösa detta var att ta spotify:s egna inbäddningskod och
-    stoppa in den i min html. Vad som blev problematiskt var att spotify har specifika inställnignar så man kan inte
-    göra objektet i den storleken man vill ha den och det går inte heller att ändra. Inte heller gick det att ändra färg
-    på de och då tycker jag att den bli ganska ful. Men den fyller ju funktionen jag vill ha så vi får se hur det
-    slutar. Kommer behöva bestämma detta tills nästa vecka om jag vill ha en sådär snygg design eller en funktionell
-    design som man kan integrera med.
+    <p> Tanken var att jag skulle ha gjort klart alla sidor tills idag så jag kunde börja mobilanpassa och addera
+        javascript
+        nästa lektion men jag körde fast ordentligt idag. Jag försökte lösa problemet med att få hemsidan att spela upp
+        en
+        bit av den låten som jag ville ha och det enda sättet att lösa detta var att ta spotify:s egna inbäddningskod
+        och
+        stoppa in den i min html. Vad som blev problematiskt var att spotify har specifika inställnignar så man kan inte
+        göra objektet i den storleken man vill ha den och det går inte heller att ändra. Inte heller gick det att ändra
+        färg
+        på de och då tycker jag att den bli ganska ful. Men den fyller ju funktionen jag vill ha så vi får se hur det
+        slutar. Kommer behöva bestämma detta tills nästa vecka om jag vill ha en sådär snygg design eller en funktionell
+        design som man kan integrera med. </p>
     <h3>Lektion vecka 12</h3>
     <!-- Fyll på med dokumentation här. -->
-    Denna veckan har jag gjort klart gridet för varje hemsida genom att använda spotify:s inbäddnigskoder i olika grids
-    med lite text så att jag har någonting att visa förutom en meny liksom. Har också gjort hela hemsidan mobilanppassad
-    till åtminstånde 360-340px och hela vägen upp till fullscreen på våra datorer. Detta blev ändå helt okej men det tog
-    mycket lång tid då det va många olika intervaller som behövdes för att det inte skulle se konstigt ut. Fixade också
-    top 10 listan då den hade fasta mått och kunde inte ändras med max-width så då fick jag lägga in flera
-    inbäddningskoder i html och därmed fick jag använda mig utav display: block och display: none vilket verkade funka
-    hyfsat bra i alla fall.
+    <p> Denna veckan har jag gjort klart gridet för varje hemsida genom att använda spotify:s inbäddnigskoder i olika
+        grids
+        med lite text så att jag har någonting att visa förutom en meny liksom. Har också gjort hela hemsidan
+        mobilanppassad
+        till åtminstånde 360-340px och hela vägen upp till fullscreen på våra datorer. Detta blev ändå helt okej men det
+        tog
+        mycket lång tid då det va många olika intervaller som behövdes för att det inte skulle se konstigt ut. Fixade
+        också
+        top 10 listan då den hade fasta mått och kunde inte ändras med max-width så då fick jag lägga in flera
+        inbäddningskoder i html och därmed fick jag använda mig utav display: block och display: none vilket verkade
+        funka
+        hyfsat bra i alla fall. </p>
+
     <h2>4. Testning</h2>
     <!-- Testa i Chrome + Firefox eller Safari (på både dator och mobil). Skiljer sig resultatet? Har du behövt anpassa ditt kod/innehåll efter de olika webbläsarna? Hur gick valideringen? Vad säger contrastchecker.com om text/bakgrundsfärg? Hur ser resultatet ut på en riktig telefon? -->
+    <p> I chrome har jag testat nästan tusentals gånger och då jag utgått från denne så funkar allting som jag vill att
+        det
+        ska funka. </p>
+
+    <p> Efter testet i firefox så kunde jag se att det inte var någon som helst skillnad på hemsidan. Alla funktioner
+        fungerade både på fullscreen och när den var mobilanpassad. På något sätt kände jag att allt passade bättre i
+        firefox, kan ero på färgerna. Fonter/css animationer och javascript fungerade som det skulle. </p>
+
+    <p> Men Internet explorer fungerade inte alls. En del simpla grids och min javascript fungerade, samt länkar och
+        liknande. Men mina grids fungerade inte alls och allting kom ovanför varandra. Man hade istället kanske behövt
+        använda flexbox om det nu är så att Internet explorer är mer anpassat till det. Mina css animationer och bilder
+        blev
+        jättekonstiga. </p>
+
+    <p> Hittade inte riktigt hur man testade det i en verklig version på mobilen men jag testade efter de färdiga
+        mobilmåtten när man inspekterar sin hemsida. I och med att jag gjorde hemsidan mobilanpassad i efterhand så fick
+        det
+        både sina positiva och negativa konsekvenser. Mestadels negativa och det är för att jag skulle ha gjort den
+        anpassad till mobile-first, alltså för mobilen redan från start och då hade det varit lättare att anpassa efter
+        det.
+        Nu blev det väldigt kompakt på vissa sidor då min text är alldeles för liten med mina grid och mestadels beror
+        det
+        på att spotify:s inbäddningskoder har fasta mått och kan inte nå ner till den storlek jag vill ha de. Dessutom
+        på
+        exempelvis index sidan som inte har så mycket information men som passar perfekt för större skärm bli väldigt
+        kompakt och kort på mobilen och fyller bara upp halva mobilskärmen ungefär. Då hade jag istället kunnat lägga
+        saker
+        under varandra och åp så sätt ha större block som fyller upp hela skärmen. Det enda som egentligen är positivt
+        är
+        att hemsidan ser bra ut på den fullskärmen jag har här och är anpassad för särmar med fler pixlar än mobilen
+        har. </p>
+
+    <p> Valideringen gav rätt många felmedddelanden på min css och det berodde mestadels på att jag hade alldeles för
+        många element av samma typ/med samma namn. Exempelvis hade jag grid_template-rows repeat (9) 1fr på flertal
+        rader och då varnade den för det. Jag använder ju den textraden i varje intervall för att den ska vara anpassad
+        till alla pixelstorlekar från 340-1500 och då behövs mycket text. Löste detta på några rader genom att istället
+        skriva grid-template-rows 1fr 1fr 1fr 1fr 1fr och därmed försvann felmeddelandet för att det inte stod samma,
+        men det funkar ändå som det ska. </p>
+    <p> Till sist fick jag lite varningar på min css som varnade för olika "kits" som inte ingick och det kan jag
+        förstå. De tillhörde min css animation shimmer som finns på indexsidan och med den kom en massa kod som jag inte
+        sett förrut men skrev av för att jag verkligen ville att det skulle fungera. Nästa gång kan jag djupdyka lite
+        mer i vad alla dessa "kits" betyder och därmed kunna ta bort dem om det finns möjlighet. </p>
+
+    <p>
+        Vad gäller testet från contrast checker så fungerar svart och orange väldigt bra tillsammans och det ger alla
+        gröna bubblor förutom en och det är att det kan vara svårt för de med färgblindhet att läsa urskilja svart text
+        på en orange bakgrund men å andra sidan har jag inte texten direkt på bakgrundfärgen så det funkar absolut. All
+        text som finns vilket oftast brukar vara det viktigaste när detgäller skillnad i kontrast så har jag antingen
+        mörk text på ljus bakgrund eller ljus text på mörkbakgrund som ger den absolut högsta kontrasten vilket gör det
+        som mest läsbart. Det ända som kan vara lite svårt för ögat att urskilja på min hemsida som kanske inte funkar
+        så bra för många är nog färgerna jag har valt på min indexsida där jag blandat vitt, lavender, orange och svart
+        som är en rätt ovanlig kombination av färger. Där hade jag kunnat välja fler färger som vanligtvis passar
+        tillsammans men å andra sida ville jag vara lite experimentell och pröva lite mer mjuka färger för att ge en
+        annan känsla. Tanken var att det skulle var aen varm och välkommnande hemsida och då tycker jag att färgerna har
+        en stor roll i det hela.
+    </p>
 
     <h2>5. Utvärdering</h2>
     <!-- Ex: Vad gick bra/mindre bra? (i arbetet/din förmåga).
     Nyanserat: "hur hade det blivit om jag istället hade...?"
     Konkreta förbättringsförslag i produkt + process. -->
+
+    <p>
+        Hela det här projektet har haft sina ups and downs om man säger så. Det som jag stod upp mot mest var
+        framförallt tidspressen jag hade och det var för att jag inte följde min planering som jag skulle. Jag fastnade
+        redan från dag 1 då jag inte visste vad jag skulle göra, tänkte redan då att jag ville jobba med någon
+        filmrelaterat men redan då va det jobbigt då jag helst inte ville använda bilder jag inte hade rättigheter till.
+        Då tänkte jag att filmmusik var smidigare att jobba med men det va ju nästan ännu jobbigare då jag ville ha
+        musikfiler med och ha möjlighet att spela upp musik från hemsidan. Jag letade och letade efter sätt att spela
+        upp musiken och det tog flera veckor innan jag hitade och bestämde mig för att ta spotify:s egna
+        inbäddningskoder men även detta var komplicerat då de hade fasta mått som var svåra och ändra på. Det gick att
+        ändra i html:en till någrå få mått och jag lyckades få ner det till en snygg och lagom design. Jag löste det
+        också på så sätt att jag använde mig utav display: block och display: none när jag skulle göra den mobilanpassad
+        och det funkade ganske bra tills det att jag märkte att de elementen jag satt till display: none låg som
+        osynliga block och detta påverkade bland annat margin till botten och elemnt jag hde nedanför så tills nästa
+        projekt ska jag komma på hur man fixar det.</p>
+
+    <p>Sedan hade jag rätt mycket problem i början tills dess att jag
+        började använda mig utav divs och det tog extremt mycket tid men det var ändå en bra läroperiod. Att
+        mobilanpassa hela sidan tog också väldigt lång tid men det löste sig till slut. Jag fick ha många olika
+        intervallgränser och jag ändrade många element bara några få pixlar eller "em" för att få det att sse så
+        naturligt ut som möjligt när man ändrade storlek på skärmen. Ibland kanske jag gjorde onödigt många ändringar
+        men jag behövde i alla fall intervallgränserna för att de skulle vara anpassade till mina bilder under headern
+        då de blev för små för sin plats och man såg den vita bakgrunden bakom då bostäverna inte ändrade font-storlek.
+        Just den biten med att ha bakgrundsbilder och visa titeln på sidan var det jag blev som allra mest nöjd med och
+        hdet är för att jag älskar bilder och jag tyckte det var kreativt att ha en bild från en film i den kategorin
+        bakom varsin bokstav. Ett roligt och snyggt sätt att fånga tittarens uppmärksamhet.
+    </p>
+
+    <p>
+        Något annat som jag var väldigt nöjd med som jag hade problem med i början var på indexsidan där jag lyckades
+        med gridspan för första gången och jag lyckades efter många försök att få bilden exakt under titeln och det var
+        inte svårare än att skapa två likadan grids, men som dem säger, övning ger färdighet. Sedan hittade jag också nu
+        på slutet en schyst detalj som innefattar de blåa rutorna nere på varje sida som man har möjlighet att klicka
+        bort. En simpel men bra lösning som ger läsaren en inblick på att sidan går att integrera med. Liknande gjorde
+        jag genom att använda hover på vissa klickbara texter så färgen ändrades men jag hade också kunnat fixa så att
+        bilder poppar ut eller får en liten shade kanske när man hovrar över för att göra sidan ännu mer integrerbar.
+    </p>
+
+    <p>
+        Till skillnad från förra projektet så skapade jag endast en css fil denna gången som det var sagt att man skulle
+        göra och det lyckades jag med. Vad som blev var att det blev nästan 1200 rader kod och det blevväldigt rörigt i
+        mitt huvud så jag kanske borde kolalr igenom css koden och se om det var några saker som sa samma sak som jag
+        kanske kunde kortat av. Precis som min validering sa så hade jag mycket av samma element i min css. Men det var
+        ofta jag hittade saker som innebar samma sak och då fixade jag de vilket gjorde det hela mer effektivt.
+    </p>
+
+    <p>
+        Som sista önskemål kanske jag hade kunnat vara lite mera kreativ på min top-10 sida och ha med ett quiz som jag
+        tänkte från början och därmed göra den sidan mer aktiv. Men med tanke på spotify:s fasta mått så valde jag att
+        avvika från den idén då jag ansåg att det var för komplicerat för mig. Men man borde utmana sig själv så det
+        tänker jag göra i nästa projekt i alla fall.
+    </p>
 
 </body>
 
