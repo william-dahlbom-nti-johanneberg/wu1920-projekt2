@@ -2,7 +2,7 @@ body{
     background-color:orange;
 }
 
-#Rubrik{
+#rubrik{
    color: white;
     font-size: 3em;
     font-family: 'Righteous', cursive;;
@@ -42,7 +42,7 @@ main{
 }
 
 
-#Mixtape{
+#mixtape{
     max-width: 80%;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -132,6 +132,11 @@ main{
 	padding-bottom: 40px;
 }
 
+button{
+	border: 0px;
+	background-color: rgb(255, 255, 255);
+}
+
 .kategorier{
     padding: 40px;
     max-width: 50%;
@@ -160,7 +165,7 @@ div{
 	padding: 20px;
 }
 
-.Info:hover{
+.info:hover{
 	color:lightgray;
 }
 
@@ -189,7 +194,7 @@ div{
 
 #bobba{
 	max-width: 100%;
-	background-image: url("../img/Bobba-Fett.png");
+	background-image: url("../img/bobbafett.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -199,7 +204,7 @@ div{
 
 #thor{
 	max-width: 100%;
-	background-image: url("../img/Thor.png");
+	background-image: url("../img/thor.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -209,7 +214,7 @@ div{
 
 #spiderman{
 	max-width: 100%;
-	background-image: url("../img/Spiderman.jpg");
+	background-image: url("../img/spiderman.jpg");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -219,7 +224,7 @@ div{
 
 #jurassic{
 	max-width: 100%;
-	background-image: url("../img/Jurassicworld.png");
+	background-image: url("../img/jurassicworld.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -229,7 +234,7 @@ div{
 
 #primus{
 	max-width: auto;
-	background-image: url("../img/Transformers.png");
+	background-image: url("../img/transformers.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -264,7 +269,7 @@ div{
 
 #titanic{
 	max-width: 100%;
-	background-image: url("../img/Titanic.png");
+	background-image: url("../img/titanic.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -274,7 +279,7 @@ div{
 
 #queen{
 	max-width: 100%;
-	background-image: url("../img/Queen.png");
+	background-image: url("../img/queen.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -284,7 +289,7 @@ div{
 
 #eminem{
 	max-width: 100%;
-	background-image: url("../img/Eminem.png");
+	background-image: url("../img/eminem.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -294,7 +299,7 @@ div{
 
 #gaga{
 	max-width: 100%;
-	background-image: url("../img/GAGA.png");
+	background-image: url("../img/gaga.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -304,7 +309,7 @@ div{
 
 #joker{
 	max-width: auto;
-	background-image: url("../img/Joker.png");
+	background-image: url("../img/joker.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -335,7 +340,7 @@ div{
 
 #simba{
 	max-width: 100%;
-	background-image: url("../img/Lejonkungen.png");
+	background-image: url("../img/lejonkungen.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -345,7 +350,7 @@ div{
 
 #olof{
 	max-width: 100%;
-	background-image: url("../img/Frost.png");
+	background-image: url("../img/frost.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -355,7 +360,7 @@ div{
 
 #belle{
 	max-width: 100%;
-	background-image: url("../img/Belle.png");
+	background-image: url("../img/belle.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -375,7 +380,7 @@ div{
 
 #woodie{
 	max-width: auto;
-	background-image: url("../img/Toy-story.png");
+	background-image: url("../img/toystory.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -386,7 +391,7 @@ div{
 
 #ariel{
 	max-width: auto;
-	background-image: url("../img/Ariel.png");
+	background-image: url("../img/ariel.png");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -443,7 +448,7 @@ div{
 
 #toppentext{
 	max-width: auto;
-	background-image: url("../img/TOP.jpg");
+	background-image: url("../img/top.jpg");
 	background-color: white;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -452,7 +457,7 @@ div{
 }
 
 
-.Töp{
+.töp{
 	display: grid;
 	grid-template-columns: 1fr;
 	max-width: 100%;
@@ -460,7 +465,7 @@ div{
 	margin-top: 50px;
 }
 
-#Tup{
+#tup{
 	display: block;
 	align-items: center;
 	text-align: center;
@@ -471,7 +476,7 @@ div{
 
 
 
-#Täp{
+#täp{
 	display: none;
 	align-items: center;
 	text-align: center;
@@ -482,7 +487,7 @@ div{
 
 
 
-#Typ{
+#typ{
 	display: none;
 	align-items: center;
 	text-align: center;
@@ -491,6 +496,55 @@ div{
 	margin: auto;
 }
 
+.yubi{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	max-width: 70%;
+	border-radius: 10px;
+	background-color: black;
+	margin: auto;
+	padding: 20px;
+	margin-bottom: 100px;
+
+}
+
+.tubi{
+	display: none;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	max-width: 70%;
+	border-radius: 10px;
+	background-color: black;
+	margin: auto;
+	padding: 10px;
+	margin-bottom: 30px;
+
+}
+
+#mojo{
+	text-align: center;
+	font-family:'PT Sans', sans-serif;
+	font-size: 3em;
+}
+
+.yubi p{
+	color: white;
+	font-size: 3em;
+	font-family:'PT Sans', sans-serif;
+}
+
+.lee{
+	align-items: center;
+	text-align: center;
+
+}
+
+.tubi p{
+	color: white;
+	font-size: 1.2em;
+	font-family:'PT Sans', sans-serif
+}
 
 @media screen and (max-width: 1500px) and (min-width: 1200px){
 
@@ -585,7 +639,7 @@ font-size: 4em;
 
 }
 
-.Töp{
+.töp{
 	margin-top: 45px;
 }
 
@@ -611,7 +665,7 @@ font-size: 3.5em;
 
 @media screen and (max-width: 950px) and (min-width: 820px) {
 
-#Rubrik{
+#rubrik{
 	font-size: 2.5em;
 }
 
@@ -636,11 +690,11 @@ font-size: 3.5em;
 	padding: 15px;
 }
 
-.Info{
+.info{
 	font-size: 1.3em;
 }
 
-.Töp{
+.töp{
 	margin-top: 40px;
 }
 
@@ -685,7 +739,7 @@ font-size: 3em;
 
 @media screen and (max-width: 820px) and (min-width: 690px) {
 
-#Rubrik{
+#rubrik{
 	font-size: 2em;
 }
 
@@ -706,7 +760,7 @@ font-size: 3em;
 	padding: 30px;
 }
 
-.Töp{
+.töp{
 	margin-top: 35px;
 }
 
@@ -714,7 +768,7 @@ font-size: 3em;
 	padding: 13px;
 }
 
-.Info{
+.info{
 	font-size: 1.1em;
 }
 
@@ -772,7 +826,7 @@ font-size: 2.5em;
 
 @media screen and (max-width: 690px) and (min-width: 570px) {
 
-#Rubrik{
+#rubrik{
 	font-size: 1.7em;
 }
 
@@ -793,7 +847,7 @@ font-size: 2.5em;
 	padding: 25px;
 }
 
-.Töp{
+.töp{
 	margin-top: 30px;
 }
 
@@ -801,7 +855,7 @@ font-size: 2.5em;
 	padding: 11px;
 }
 
-.Info{
+.info{
 	font-size: 1em;
 }
 
@@ -818,11 +872,11 @@ font-size: 2.5em;
 	padding-bottom: 30px;
 }
 
-#Tup{
+#tup{
 	display: none;
 }
 
-#Täp{
+#täp{
 	display: block;
 }
 
@@ -863,11 +917,9 @@ font-size: 2em;
 }
 } 
 
-
-
 @media screen and (max-width: 570px) and (min-width: 470px) {
 
-#Rubrik{
+#rubrik{
 	font-size: 1.3em;
 }
 
@@ -888,7 +940,7 @@ font-size: 2em;
 	padding: 20px;
 }
 
-.Töp{
+.töp{
 	margin-top: 25px;
 }
 
@@ -896,7 +948,7 @@ font-size: 2em;
 	padding: 9px;
 }
 
-.Info{
+.info{
 	font-size: 0.85em;
 }
 
@@ -913,11 +965,11 @@ font-size: 2em;
 	padding-bottom: 25px;
 }
 
-#Tup{
+#tup{
 	display: none;
 }
 
-#Typ{
+#typ{
 	display: block;
 }
 
@@ -964,7 +1016,7 @@ font-size: 1.7em;
 
 @media screen and (max-width: 470px) and (min-width: 400px) {
 
-#Rubrik{
+#rubrik{
 	font-size: 1.1em;
 }
 	
@@ -985,7 +1037,7 @@ font-size: 1.7em;
 
 }
 
-.Töp{
+.töp{
 	margin-top: 20px;
 }
 
@@ -993,7 +1045,7 @@ font-size: 1.7em;
 	padding: 7px;
 }
 
-.Info{
+.info{
 	font-size: 0.7em;
 }
 
@@ -1010,11 +1062,11 @@ font-size: 1.7em;
 	padding-bottom: 20px;
 }
 
-#Tup{
+#tup{
 	display: none;
 }
 
-#Typ{
+#typ{
 	display: block;}
 
 
@@ -1058,10 +1110,9 @@ font-size: 1.4em;
 }
 	} 
 
-
 @media screen and (max-width: 400px) and (min-width:340px) {
 
-#Rubrik{
+#rubrik{
 	font-size: 1em;
 }
 			
@@ -1082,7 +1133,7 @@ font-size: 1.4em;
 	padding: 13px;
 }
 
-.Töp{
+.töp{
 	margin-top: 15px;
 }
 
@@ -1090,7 +1141,7 @@ font-size: 1.4em;
 	padding: 5px;
 }
 
-.Info{
+.info{
 	font-size: 0.55em;
 }
 
@@ -1107,11 +1158,11 @@ font-size: 1.4em;
 }
 
 
-#Tup{
+#tup{
 	display: none;
 }
 
-#Typ{
+#typ{
 	display: block;}
 
 .actionmusik{
@@ -1156,7 +1207,7 @@ font-size: 1.2em;
 
 @media screen and (max-width: 340px) and (min-width:1px) {
 
-	#Rubrik{
+	#rubrik{
 		font-size: 1em;
 	}
 				
@@ -1177,7 +1228,7 @@ font-size: 1.2em;
 		padding: 10px;
 	}
 
-	.Töp{
+	.töp{
 		margin-top: 10px;
 	}
 
@@ -1185,7 +1236,7 @@ font-size: 1.2em;
 		padding: 4px;
 	}
 	
-	.Info{
+	.info{
 		font-size: 0.5em;
 	}
 
@@ -1202,11 +1253,11 @@ font-size: 1.2em;
 	}
 
 	
-#Tup{
+#tup{
 	display: none;
 }
 
-#Typ{
+#typ{
 	display: block;}
 
 	.actionmusik{
