@@ -16,18 +16,24 @@
     <header class="hemheader">
 
         <a href="index.html">
-            <h1 id="Rubrik" class="mitten">Filmmusik</h1>
+            <h1 id="rubrik" class="mitten">Filmmusik</h1>
         </a>
 
 
         <a class="menylankar" href="action.html"> Action</a>
         <a class="menylankar" href="drama.html"> Drama</a>
         <a class="menylankar" href="disney.html"> Disney</a>
-        <a class="menylankar" href="top10.html"> Top 10</a>
+        <a id="var" class="menylankar" href="top10.html"> Top 10</a>
 
 
 
     </header>
+
+    <style>
+        #var {
+            color: goldenrod;
+        }
+    </style>
 
 
     <main class="top">
@@ -38,20 +44,252 @@
 
     </main>
 
-    <div class="Töp">
-        <iframe id="Tup" src="https://open.spotify.com/embed/playlist/0XIjjtRjifLWfITQIYZBqI" width="600px" height="600"
+    <div class="töp">
+        <iframe id="tup" src="https://open.spotify.com/embed/playlist/0XIjjtRjifLWfITQIYZBqI" width="600px" height="600"
             frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
 
-    <div class="Töp">
-        <iframe id="Täp" src="https://open.spotify.com/embed/playlist/0XIjjtRjifLWfITQIYZBqI" width="500" height="600"
+    <div class="töp">
+        <iframe id="täp" src="https://open.spotify.com/embed/playlist/0XIjjtRjifLWfITQIYZBqI" width="500" height="600"
             frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
 
-    <div class="Töp">
-        <iframe id="Typ" src="https://open.spotify.com/embed/playlist/0XIjjtRjifLWfITQIYZBqI" width="auto" height="600"
+    <div class="töp">
+        <iframe id="typ" src="https://open.spotify.com/embed/playlist/0XIjjtRjifLWfITQIYZBqI" width="auto" height="600"
             frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
+
+
+    <h2 id="mojo">Fler Top 10 listor från WatchMojo</h2>
+
+
+    <div class="yubi">
+
+        <article class="lee">
+            <div>
+                <p>Top 10 Movie Soundtracks</p>
+                <iframe width=" 400" height="350" src="https://www.youtube.com/embed/i19Y7HnW38U" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </article>
+
+        <article class="lee">
+            <div>
+
+                <p>Top 10 Movie Theme Songs</p>
+                <iframe width="400" height="350" src="https://www.youtube.com/embed/0H6ay-dZtvY" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+            </div>
+        </article>
+
+    </div>
+
+    <div class="tubi">
+
+        <article class="lee">
+            <div>
+                <p>Top 10 Movie Soundtracks</p>
+                <iframe width=" 150" height="100" src="https://www.youtube.com/embed/i19Y7HnW38U" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </article>
+
+        <article class="lee">
+            <div>
+
+                <p>Top 10 Movie Theme Songs</p>
+                <iframe width="150" height="100" src="https://www.youtube.com/embed/0H6ay-dZtvY" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+            </div>
+        </article>
+
+    </div>
+
+    <style>
+        @media screen and (max-width: 1400px) and (min-width: 400px) {
+
+            .yubi {
+
+                display: none;
+            }
+
+            .tubi {
+                display: grid;
+            }
+
+            #mojo {
+                font-size: 1.3em;
+            }
+    </style>
+
+    <script>
+        prompt("Skriv gärna vad du tycker om hemsidan än så länge :)")
+    </script>
+
+    <style>
+        .snak {
+            background: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 60%;
+            margin: auto;
+        }
+
+        canvas {
+            border: 1px solid white;
+        }
+
+        h3 {
+            text-align: center;
+            font-family: 'PT Sans', sans-serif;
+        }
+
+        @media screen and (max-width: 690px) and (min-width: 0px) {
+            .snak {
+                display: none;
+            }
+
+            h3 {
+                display: none;
+            }
+
+        }
+    </style>
+    <h3>I väntan på mer material kan du väll spela lite "Snake" så länge, andvänd knapparna w, a, s och d för att flytta
+        på ormen!</h3>
+    <footer class="snak">
+        <canvas width="400px" height="400px" id="game"></canvas>
+        <script>
+            var canvas = document.getElementById('game');
+            var context = canvas.getContext('2d');
+
+            var grid = 16;
+            var count = 0;
+
+            var snake = {
+                x: 160,
+                y: 160,
+
+                dx: grid,
+                dy: 0,
+
+
+                cells: [],
+
+
+                maxCells: 4
+            };
+            var apple = {
+                x: 320,
+                y: 320
+            };
+
+
+            function getRandomInt(min, max) {
+                return Math.floor(Math.random() * (max - min)) + min;
+            }
+
+            function loop() {
+                requestAnimationFrame(loop);
+                if (++count < 4) {
+                    return;
+                }
+
+                count = 0;
+                context.clearRect(0, 0, canvas.width, canvas.height);
+
+                snake.x += snake.dx;
+                snake.y += snake.dy;
+
+                if (snake.x < 0) {
+                    snake.x = canvas.width - grid;
+                }
+                else if (snake.x >= canvas.width) {
+                    snake.x = 0;
+                }
+                if (snake.y < 0) {
+                    snake.y = canvas.height - grid;
+                }
+                else if (snake.y >= canvas.height) {
+                    snake.y = 0;
+                }
+
+                snake.cells.unshift({ x: snake.x, y: snake.y });
+                if (snake.cells.length > snake.maxCells) {
+                    snake.cells.pop();
+                }
+
+                context.fillStyle = 'red';
+                context.fillRect(apple.x, apple.y, grid - 1, grid - 1);
+                context.fillStyle = 'green';
+                snake.cells.forEach(function (cell, index) {
+
+
+                    context.fillRect(cell.x, cell.y, grid - 1, grid - 1);
+
+
+                    if (cell.x === apple.x && cell.y === apple.y) {
+                        snake.maxCells++;
+
+                        // canvas is 400x400 which is 25x25 grids 
+                        apple.x = getRandomInt(0, 25) * grid;
+                        apple.y = getRandomInt(0, 25) * grid;
+                    }
+
+
+                    for (var i = index + 1; i < snake.cells.length; i++) {
+
+                        if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
+                            snake.x = 160;
+                            snake.y = 160;
+                            snake.cells = [];
+                            snake.maxCells = 4;
+                            snake.dx = grid;
+                            snake.dy = 0;
+
+                            apple.x = getRandomInt(0, 30) * grid;
+                            apple.y = getRandomInt(0, 30) * grid;
+                        }
+                    }
+                });
+            }
+
+            document.addEventListener('keydown', function (e) {
+
+                // left arrow key
+                if (e.which === 65 && snake.dx === 0) {
+                    snake.dx = -grid;
+                    snake.dy = 0;
+                }
+                // up arrow key
+                else if (e.which === 87 && snake.dy === 0) {
+                    snake.dy = -grid;
+                    snake.dx = 0;
+                }
+                // right arrow key
+                else if (e.which === 68 && snake.dx === 0) {
+                    snake.dx = grid;
+                    snake.dy = 0;
+                }
+                // down arrow key
+                else if (e.which === 83 && snake.dy === 0) {
+                    snake.dy = grid;
+                    snake.dx = 0;
+                }
+            });
+
+            // start the game
+            requestAnimationFrame(loop);
+        </script>
+
+    </footer>
 
     <style>
         .alert {
@@ -86,6 +324,6 @@
     </div>
 
 
-</body>
+
 
 </html>
